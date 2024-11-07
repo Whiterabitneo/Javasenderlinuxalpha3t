@@ -21,11 +21,11 @@ app.post('/send-email', async (req, res) => {
     // Nodemailer configuration
     let transporter = nodemailer.createTransport({
         host: 'smtp.hostinger.com',
-        port: 587,
-        secure: false, // TLS requires secure:false
+        port: 465,
+        secure: true, // TLS requires secure:false
         auth: {
-            user: 'your-email@your-domain.com', // Your email address
-            pass: 'your-email-password' // Your email password
+            user: 'pimgtsales@spencermartin.homes', // Your email address
+            pass: '08063823032Cc@' // Your email password
         }
     });
 
