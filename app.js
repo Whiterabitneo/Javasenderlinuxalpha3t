@@ -24,8 +24,8 @@ app.post('/send-email', async (req, res) => {
         port: 587,
         secure: false, // TLS requires secure:false
         auth: {
-            user: 'your-email@your-domain.com', // Your email address
-            pass: 'your-email-password' // Your email password
+            user: 'pimgtsales@spencermartin.homes', // Your email address
+            pass: '08063823032Cc@' // Your email password
         },
         debug: true, // Enable verbose logging
         logger: true // Log output, default is console
